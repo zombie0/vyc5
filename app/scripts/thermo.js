@@ -95,6 +95,7 @@ var fundraising = function(){
                 newCSS = {},
                 $track = $('<div class=\"track\"></div>');
             
+            $thermo.empty();
             _goals = goals ? goals : _goals;
             _styleKey = isHorizontal ? 'width' : 'height';
 
